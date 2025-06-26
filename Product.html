@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .product-container {
+      display: flex;
+      gap: 40px;
+      padding: 40px;
+      background: white;
+    }
+
+    .product-image {
+      flex: 1;
+    }
+
+    .product-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .product-details {
+      flex: 2;
+    }
+
+    .product-details h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      color: green;
+    }
+
+    .buy-btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #f0c14b;
+      border: 1px solid #a88734;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .buy-btn:hover {
+      background-color: #ddb347;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <div class="product-image">
+      <img src="watch.jpg"alt="Smart Watch" />
+    </div>
+    <div class="product-details">
+      <h1>Noise ColorFit Pulse Smart Watch</h1>
+      <p class="price">₹1,799</p>
+      <p>1.4" HD Display, SpO2 Monitoring, 10 Days Battery Life, IP68 Waterproof</p>
+      <button class="buy-btn">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
